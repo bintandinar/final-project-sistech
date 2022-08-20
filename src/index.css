@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*---------------------------------------
+  BODY             
+-----------------------------------------*/
+body {
+  background: #E2DCC8;
+}
+
+/*---------------------------------------
+  NAVBAR             
+-----------------------------------------*/
+* {
+  font-family: "Quicksand";
+  /*color: #E2DCC8;*/
+}
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #0F3D3E;
+}
+.navbar h1 {
+  font-size: 25px;
+}
+.navbar a:hover {
+  color: #100F0F;
+}
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/*---------------------------------------
+  REGISTER             
+-----------------------------------------*/
+/* .checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+
+
+
+
+/*---------------------------------------
+  LOGIN             
+-----------------------------------------*/
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.background{
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+.background .shape{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+.login-form{
+  height: 520px;
+  width: 400px;
+  background-color: rgba(255,255,255,0.13);
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 50px 35px;
+}
+.login-form *{
+  font-family: 'Quicksand',sans-serif;
+  color: #0F3D3E;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+.login-form h3{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+label{
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.form-control{
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #0F3D3E;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+::placeholder{
+  color: #e5e5e5;
+}
+.login-btn{
+  margin-top: 50px;
+  width: 100%;
+  background-color: #0F3D3E;
+  color: #fbfbfc;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-group h3 {
+  font-size: 15px;
+}
+
+/*---------------------------------------
+  CATEGORY LIST            
+-----------------------------------------*/
+/*footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #E2DCC8;
+  color: #0F3D3E;
+  position: relative;
+}*/
+
+.list-category{
+  margin-left: auto;
+  width: 0%;
+  margin-left: 50px;
+  line-height: 23px;
+}
+
+.list-category li:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
+.list-category li a {
+  text-decoration: none;
+  color: #0F3D3E;
+}
+
+
+/*---------------------------------------
+  DETAIL CATEGORY          
+-----------------------------------------*/
+.side-column {
+  margin-left: auto;
+  width: 30%;
+}
+.detail-category {
+  float: left;
+  padding: 40px;
+  margin-left: 0px;
+  color:#0F3D3E;
+}
+
+/*---------------------------------------
+  THREAD LIST            
+-----------------------------------------*/
+
+h1 {
+  color: #0F3D3E;
+}
+
+.thread-post a {
+  text-decoration: none;
+}
+
+
+
+
+
+/*---------------------------------------
+  HOME            
+-----------------------------------------*/
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 40px;
+  color:#0F3D3E;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+  margin-left: auto;
+  width: 80%;
+  text-decoration: none;
+}
+
+.column.middle h1 {
+  text-align:justify;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 90%;
+  }
+
+} */
+
+
+
+
+
+
+
